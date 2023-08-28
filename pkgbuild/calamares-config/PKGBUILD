@@ -1,0 +1,16 @@
+pkgname=calamares-config
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="Config files for Calamares"
+arch=('any')
+license=('GPL3')
+options=(!strip !emptydirs)
+
+prepare() {
+	cp -af ../etc ${srcdir}
+}
+
+package() {
+    install -dm755 "${pkgdir}/etc/"
+    cp -r "${srcdir}/etc/" "${pkgdir}/etc/"
+}
