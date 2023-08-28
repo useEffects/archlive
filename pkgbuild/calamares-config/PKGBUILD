@@ -12,5 +12,5 @@ prepare() {
 
 package() {
     install -dm755 "${pkgdir}/etc/"
-    cp -r "${srcdir}/etc/" "${pkgdir}/etc/"
+    cp -r "${srcdir}/etc/calamares" "${pkgdir}/etc/"
 }
