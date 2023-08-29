@@ -130,9 +130,11 @@ openbox
 xterm
 
 # archlive-repos
-arco-calamares
+mkinitcpio-openswap
+ckbcomp
+alci-calamares
 calamares-config
-
+lxsession
 
 #misc
 gparted

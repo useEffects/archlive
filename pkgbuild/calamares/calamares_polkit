@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ $(which pkexec) ]; then
-	pkexec --disable-internal-agent "/usr/bin/calamares" "$@"
+	sudo "/usr/bin/calamares" "$@" "-d"
 else
-	/usr/bin/calamares "$@"
+	/usr/bin/calamares "$@" "-d"
 fi
