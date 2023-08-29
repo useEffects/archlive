@@ -1,5 +1,4 @@
 # default 
-
 alsa-utils
 amd-ucode
 arch-install-scripts
@@ -125,9 +124,22 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+
+# custom 
 sddm
 openbox
 xterm
+alacritty
+neofetch
+ranger
+git
+flameshot
+rofi
+polybar
+firefox
+noto-fonts
+noto-fonts-emoji
+noto-fonts-extra
 
 # archlive-repos
 mkinitcpio-openswap
