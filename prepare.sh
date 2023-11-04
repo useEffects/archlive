@@ -14,9 +14,9 @@ for package_dir in */; do
         
         # Get the built package name
         package_name=$(basename $(ls *.pkg.tar.zst))
-        
+
         # Copy package back to archlive-install-repos
-        cp "$package_name" "../archlive-install-repos/"
+        cp "$package_name" "/home/aprilia/Projects/linux/archlive/archlive-install-repos/"
         
         # Go back to pkgbuild directory
         cd ..
